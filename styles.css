@@ -1,0 +1,120 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+*/
+body{
+  
+   /* background:#707070; */
+   
+}
+.box{
+   height: auto;
+   margin-top: -3rem;
+   width: 70%;
+   margin: 100px auto;
+   /* background: rgb(255, 255, 255); */
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+   /* box-shadow: 0px 0px 43px 17px rgba(153, 153,153, 1); */
+
+}
+.box .heading{ 
+   /* color: white; */
+   /* background: #AEB3FA; */
+   border-radius: 7px 7px 0px 0px;
+   padding:15px;
+   text-align: center;
+   font-family:  "Work Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 130%;
+   background: #3CC3E0;
+}
+.faq{
+   padding: 10px 20px ;
+   /* color: #AEB3FA; */
+   box-shadow: 0px 0px 43px 17px rgba(153, 153,153, 1);
+   /* background: #3CC3E0; */
+   
+}
+::-webkit-details-marker{
+   float: right;
+   margin-top:3px;
+}
+details{
+   background: #f6f6f6;
+   /* padding: 5px; */
+   font-family: "Work Sans";;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 130%;
+   border-radius: 7px;
+   margin-top: 25px;
+   cursor: pointer;
+
+}
+details summary{
+   outline: none;
+  
+}
+.head{
+   /* background: #3CC3E0; */
+    /* border-radius: 7px 7px 0px 0px; */
+   padding:15px; 
+   text-align: center;
+   font-family:  "Work Sans";;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 130%;
+   /* color: #f6f6f6; */
+}
+.text{
+   text-align: center;
+   font-family:  "Work Sans";;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 130%;
+    /* color:white */
+}
+summary{
+   padding: 2rem;
+}
+.read{
+   border: #AEB3FA;
+   color: red;
+}
+.span{
+   display: none;
+}
+.read{
+   padding: 2rem 3rem;
+   color: #AEB3FA;
+   /* background:  ; */
+   margin-top: 2rem;
+   font-size: 1rem;
+   border:none;
+   outline: none;
+   cursor: pointer;
+}
+
+#more{
+   display: none;
+}
+button{
+  background-color:#3CC3E0;
+   height: 2.5rem;
+   margin-top: 1rem;
+   font-weight: bold;
+   font-size: 0.7rem;
+   width: 7rem;
+   padding: 1rem;
+   text-align: center;
+   color:black;
+   text-decoration: none;
+   border-radius: 0.5rem;
+   cursor: pointer;
+   box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.1);
+   text-transform: uppercase;
+}
